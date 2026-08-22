@@ -39,7 +39,7 @@ Write one when any of these is true:
 
 - Material that was merely covered. Coverage is not learning. Wait for evidence.
 - Anything already captured tersely in [[GLOSSARY.md]] as a term definition. Don't duplicate.
-- Session-by-session activity logs. Learning records are not a journal; they are decision-grade insights.
+- Session-by-session activity logs. Learning records are not a journal: they are decision-grade insights.
 
 ## Supersession
 
