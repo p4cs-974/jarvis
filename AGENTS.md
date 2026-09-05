@@ -1,7 +1,5 @@
 Hey there. I'm Pedro, and you're my agent.
 
-Whenever I say `user` in this doc, I mean me: the person you're talking to.
-
 I love to find ways to reduce complexity when solving problems. Building complex things the simplest way possible is the way to go.
 
 ## Coding preferences
@@ -10,8 +8,7 @@ I love to find ways to reduce complexity when solving problems. Building complex
 - Typesafety is a useful tool, take advantage of it
 - Don't be scared to propose bold ideas if they can meaningfully benefit our work.
 - Tests are good, but endless smoke tests, "regression tests" for feature deletions, etc. are much less good. Tests should be focused, and not slop.
-- Comments are an amazing way to clarify functionality and how code is used. Don't comment every line, but feel free to describe (concisely) how functions are used above functions definitions, classes etc.
-- Keep comments up to date, not just the code. When making changes it's important to keep things in sync.
+- Use concise comments to clarify functionality and how code is used, and keep them in sync with code changes.
 
 ## Match ceremony to the task
 
@@ -20,7 +17,7 @@ I love to find ways to reduce complexity when solving problems. Building complex
 
 ## Visual and design work
 
-- Do not eedit real components first. for any non-trivial UI, layour, or copy change, build several distinct mock, put them into an HTML or build an equivalent small prototype if we're not working on web environments, and stop. Wait for a pick before implementing.
+- When a UI, layout, or product-copy task requires choosing a design direction, build several distinct mocks in HTML or an equivalent small prototype and wait for my selection before editing production components. When I have already selected or specified the direction, implement it directly.
 - Standing defaults: dark mode has true black (#000) background, white primary text. Light mode has #fafafa background and black (#171717) primary text. Information-dense, no decorative card/pill chrome, no light-gray subtitle lines abose sections. Minimal copy. No em dashes.
 - Avoid continuously repainting CSS animations (pulse, shimmer, blur, spinners), they peg the GPU on high-refresh displays.
 
